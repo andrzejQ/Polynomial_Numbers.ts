@@ -1,14 +1,16 @@
 ﻿/**
- * @author kubaszek
- * PN class with operations (as3 port to typescript)
+ * Polynomial Number (PN) class with operations
  * http://www.pei.prz.edu.pl/%7Ekubaszek/index_en.html
  *
+ * PN =  
  * (~m_0 ~, m_1 ~ m_2 ~  ...~) · (~1~0~)^c               
  *   where: m - PN mantissa         c - PN exponent
  *
  * type argPNconstr = 
- *   PN //copy (deep copy if a !== 1) | number // mant[0] | number[] //mant (deep copy)
-       | string // '(~...~)' or 'c_...' 
+ *     PN //copy (deep copy if a !== 1)
+ *   | number // mant[0]
+ *   | number[] //mant (deep copy)
+ *   | string // '(~...~)' or 'c_...' 
  * constructor(
  *   pn_arr_str_num: argPNconstr
  *  ,a: number = 1 // scale mant
