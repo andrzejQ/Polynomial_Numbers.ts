@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "System",
+    "outFile":"./build.js"
+  },
+  "exclude": [
+    "./tmp/**/*",
+    "./x/**/*"
+  ]
+}
